@@ -9,17 +9,17 @@ body, div, ul, li, p, h1, h2, h3, section, main, header, footer, article {
 }
 
 body {
-    background-color: #F0F4F8; /* Fondo azul claro para mayor armonía */
+    background-color: #F0F4F8;
     font-family: 'Montserrat', sans-serif;
-    line-height: 1.6; /* Mejora la legibilidad */
-    color: #555C6C; /* Texto principal en gris suave */
+    line-height: 1.6;
+    color: #555C6C;
 }
 
 /* Título principal */
 h1 {
     font-weight: 700;
     font-size: 2.6em;
-    color: #2F3C7E; /* Azul oscuro con buen contraste */
+    color: #2F3C7E;
     text-align: center;
     margin-top: 30px;
 }
@@ -34,13 +34,13 @@ h1 {
     gap: 26px;
     max-width: 1080px;
     margin: auto;
-    padding: 40px 20px; /* Aumenta el espacio interno */
+    padding: 40px 20px;
 }
 
 /* Descripción inicial */
 .descripcion__wrapper {
     display: flex;
-    gap: 20px; /* Más espacio entre texto e imagen */
+    gap: 20px;
     grid-area: descripcion;
     margin-bottom: 20px;
 }
@@ -59,17 +59,17 @@ h1 {
     'img img img';
     gap: 20px;
     grid-area: marco;
-    padding: 20px; /* Padding para separar más el contenido */
-    background-color: #FAF9F6; /* Fondo suave para mayor contraste */
-    border-radius: 8px; /* Bordes suaves */
+    padding: 20px;
+    background-color: #FAF9F6;
+    border-radius: 8px;
 }
 
 /* Secciones Misión, Visión y Valores */
 .mision, .vision, .valores {
     padding: 20px;
-    background-color: #FFFFFF; /* Fondo blanco para destacar el contenido */
+    background-color: #FFFFFF;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombras sutiles */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .vision {
@@ -86,7 +86,7 @@ h1 {
 
 .img-2 {
     grid-area: img;
-    border-radius: 8px; /* Bordes suaves para imágenes */
+    border-radius: 8px;
     overflow: hidden;
 }
 
@@ -102,7 +102,7 @@ h1 {
 .objetivos__list {
     display: flex;
     flex-direction: column;
-    gap: 15px; /* Más espacio entre los objetivos */
+    gap: 15px;
 }
 
 .objetivo__item {
@@ -113,25 +113,23 @@ h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
 
-/* Subtítulos de cada bloque */
 .subtitle {
     margin-bottom: 12px;
-    font-size: 1.8em; /* Aumenta el tamaño para jerarquía */
-    color: #2F3C7E; /* Azul oscuro para contraste */
-    text-align: center; /* Centra los subtítulos */
+    font-size: 1.8em;
+    color: #2F3C7E;
+    text-align: center;
 }
 
-/* Estilo general para párrafos */
 .p {
     text-align: justify;
     text-wrap: pretty;
     line-height: 1.7;
     font-size: 1em;
-    color: #555C6C; /* Texto gris para suavizar */
+    color: #555C6C;
 }
 
-/* Ajustes a las imágenes */
 img {
     width: 100%;
     border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
