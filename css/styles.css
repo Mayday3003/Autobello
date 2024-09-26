@@ -42,7 +42,6 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-    grid-area: descripcion;
     margin-bottom: 20px;
 }
 
