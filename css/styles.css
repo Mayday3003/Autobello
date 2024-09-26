@@ -39,7 +39,6 @@ h1 {
 
 /* Descripción inicial */
 .descripcion__wrapper {
-<<<<<<< HEAD
     display: flex;
     flex-direction: row; /* Keep items side by side */
     align-items: center; /* Center align items vertically */
@@ -51,12 +50,6 @@ h1 {
 
 .descripcion__container {
     flex: 1; /* Allow description text to take the remaining space */
-=======
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    margin-bottom: 20px;
->>>>>>> a0b6a2a17e17a56e9745fe87627e62b6c236eeba
 }
 
 .descripcion p {
