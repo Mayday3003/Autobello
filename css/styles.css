@@ -40,15 +40,30 @@ h1 {
 /* Descripción inicial */
 .descripcion__wrapper {
     display: flex;
-    gap: 20px;
+    flex-direction: row; /* Keep items side by side */
+    align-items: center; /* Center align items vertically */
+    gap: 30px; /* Space between items */
     grid-area: descripcion;
-    margin-bottom: 20px;
+    margin-bottom: 40px; /* Increased spacing */
+    transition: transform 0.5s ease-in-out; /* Transition for entrance */
+}
+
+.descripcion__container {
+    flex: 1; /* Allow description text to take the remaining space */
 }
 
 .descripcion p {
     color: #555C6C;
     text-align: justify;
-    line-height: 1.7;
+    line-height: 1.8; /* Improved line height */
+    font-size: 1.1em; /* Ensure the text is legible alongside the image */
+}
+
+/* Logo */
+.logo {
+    width: 250px; /* Increased width */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 250px; /* Optionally, limit the max height */
 }
 
 /* Marco estratégico */
@@ -114,7 +129,7 @@ h1 {
 }
 
 .subtitle {
-    margin-bottom: 12px;
+    margin-bottom: 15px; /* Increased spacing */
     font-size: 1.8em;
     color: #2F3C7E;
     text-align: center;
@@ -122,23 +137,23 @@ h1 {
 
 .p {
     text-align: justify;
-    text-wrap: pretty;
     line-height: 1.7;
-    font-size: 1em;
+    font-size: 1.1em; /* Slightly larger text */
     color: #555C6C;
 }
 
 img {
     width: 100%;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 12px; /* Consistent rounding */
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05); /* Light shadow */
+    transition: opacity 0.5s ease-in-out; /* Fade effect */
 }
 
-/* Centrar imagen de Matriz DOFA */
+/* Centrar imagen de Matriz DOFA y Diagrama */
 .img_container {
     display: flex;
     justify-content: center;
-    margin: 20px 0; /* Espaciado opcional */
+    margin: 20px 0; /* Spacing */
 }
 
 .img_container img {
@@ -146,8 +161,20 @@ img {
     height: auto;
 }
 
+/* Contenedor del diagrama de espina de pescado */
+.diagrama-container {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 55px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pescado {
+    border-radius: 0;
+}
+
 h4 {
     text-align: center;
-    margin-bottom: 6px;
-    font-size: 1.2em;
+    margin-bottom: 10px; /* Increased spacing */
+    font-size: 1.4em; /* Increased size */
 }
