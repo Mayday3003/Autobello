@@ -39,7 +39,8 @@ h1 {
 
 /* Descripción inicial */
 .descripcion__wrapper {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
     grid-area: descripcion;
     margin-bottom: 20px;
