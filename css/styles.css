@@ -40,30 +40,30 @@ h1 {
 /* Descripción inicial */
 .descripcion__wrapper {
     display: flex;
-    flex-direction: row; /* Keep items side by side */
-    align-items: center; /* Center align items vertically */
-    gap: 30px; /* Space between items */
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
     grid-area: descripcion;
-    margin-bottom: 40px; /* Increased spacing */
-    transition: transform 0.5s ease-in-out; /* Transition for entrance */
+    margin-bottom: 40px;
+    transition: transform 0.5s ease-in-out;
 }
 
 .descripcion__container {
-    flex: 1; /* Allow description text to take the remaining space */
+    flex: 1;
 }
 
 .descripcion p {
     color: #555C6C;
     text-align: justify;
-    line-height: 1.8; /* Improved line height */
-    font-size: 1.1em; /* Ensure the text is legible alongside the image */
+    line-height: 1.8;
+    font-size: 1.1em;
 }
 
 /* Logo */
 .logo {
-    width: 250px; /* Increased width */
-    height: auto; /* Maintain aspect ratio */
-    max-height: 250px; /* Optionally, limit the max height */
+    width: 250px;
+    height: auto;
+    max-height: 250px;
 }
 
 /* Marco estratégico */
@@ -129,7 +129,7 @@ h1 {
 }
 
 .subtitle {
-    margin-bottom: 15px; /* Increased spacing */
+    margin-bottom: 15px;
     font-size: 1.8em;
     color: #2F3C7E;
     text-align: center;
@@ -138,22 +138,22 @@ h1 {
 .p {
     text-align: justify;
     line-height: 1.7;
-    font-size: 1.1em; /* Slightly larger text */
+    font-size: 1.1em;
     color: #555C6C;
 }
 
 img {
     width: 100%;
-    border-radius: 12px; /* Consistent rounding */
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05); /* Light shadow */
-    transition: opacity 0.5s ease-in-out; /* Fade effect */
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+    transition: opacity 0.5s ease-in-out;
 }
 
 /* Centrar imagen de Matriz DOFA y Diagrama */
 .img_container {
     display: flex;
     justify-content: center;
-    margin: 20px 0; /* Spacing */
+    margin: 20px 0;
 }
 
 .img_container img {
@@ -175,6 +175,6 @@ img {
 
 h4 {
     text-align: center;
-    margin-bottom: 10px; /* Increased spacing */
-    font-size: 1.4em; /* Increased size */
+    margin-bottom: 10px;
+    font-size: 1.4em;
 }
