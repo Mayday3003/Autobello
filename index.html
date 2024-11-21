@@ -1,139 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
-    <title>Blog AutoBello</title>
-</head>
-<body>
-    <main class="main__wrapper">
-        <h1>Proyecto Final - Autobello</h1>
-        <section class="section-1">
-            <article class="descripcion__wrapper">
-                <div class="descripcion__container">
-                    <p class="descripcion p">
-                        Autobello es una escuela de conducción que permite a los estudiantes tramitar todas las categorías de permisos de conducir desde A2 hasta C3. Destaca por su apuesta por una formación integral que combina la teoría con la práctica para convertir a los alumnos en conductores seguros y responsables. 
-                        Con un equipo de instructores apasionados por la educación y la seguridad vial, Autobello se compromete a brindar una experiencia de aprendizaje práctica y efectiva para todos.
-                    </p>
-                </div>
-                <div class="img_container img-1">
-                    <img src="images/Logo Autobello.jpg" alt="Logo Autobello" class="logo">
-                </div>
-            </article>
-            <article class="marco-estrategico__wrapper">
-                <div class="marco-estrategico__container mision">
-                    <h3 class="subtitle">Misión</h3>
-                    <p class="mision p">
-                        Somos una organización dedicada a formar conductores teórica y prácticamente en diversas categorías de vehículos, con un enfoque en la seguridad vial. Atendemos las necesidades de quienes buscan obtener su licencia de conducción, promoviendo el respeto por el entorno y los derechos humanos, así como un comportamiento ciudadano responsable. 
-                    </p>
-                </div>
-                <div class="marco-estrategico__container vision">
-                    <h3 class="subtitle">Visión</h3>
-                    <p class="vision p">
-                        Para el 2030 seremos la mejor alternativa de formación en conducción y seguridad vial en el sector de tránsito y transporte de carretero rodante. Con eficiencia y alto desempeño de prestación en los servicios de enseñanza en conducción y trámites de licencia. Contando con el personal idóneo para obtener un alto grado de satisfacción en nuestros clientes.
-                    </p>
-                </div>
-                <div class="marco-estrategico__container valores">
-                    <h3 class="subtitle">Ética Corporativa</h3>
-                    <p class="valores p">
-                        Nos guiamos por la responsabilidad, ética y transparencia, priorizando la seguridad vial y el respeto al entorno. Promovemos la innovación, la excelencia y la mejora continua en todos nuestros procesos.
-                    </p>
-                </div>
-                <div class="img_container img-2">
-                    <img src="images/Mapa de Procesos.png" alt="Mapa de Procesos">
-                </div>
-            </article>
-            <article class="objetivos__wrapper">
-                <div class="objetivos__container">
-                    <h3 class="objetivos__subtitle subtitle">Objetivos Estratégicos</h3>
-                    <h4>Objetivo General</h4>
-                    <ul class="objetivos__list">
-                        <li class="objetivo__item p">
-                            <p class="p">Consolidar la posición de la organización como líder en el sector del transporte a través de la actualización continua de su personal, el fortalecimiento de su imagen de marca en seguridad vial y la creación de alianzas estratégicas que respalden su compromiso con la formación y responsabilidad social.</p>
-                        </li>
-                    </ul>
-                    <h4>Objetivos Específicos</h4>
-                    <ul class="objetivos__list">
-                        <li class="objetivo__item p">
-                            <p class="p">Asegurar una actualización constante del personal mediante capacitaciones periódicas que garanticen su competencia en las últimas normativas y tecnologías del sector de transporte.</p>
-                        </li>
-                        <li class="objetivo__item p">
-                            <p class="p">Mejorar el posicionamiento de la marca mediante campañas de marketing enfocadas en la ética, la seguridad vial y el respeto al entorno, posicionándose como la opción más responsable y profesional.</p>
-                        </li>
-                        <li class="objetivo__item p">
-                            <p class="p">Fortalecer alianzas con las entidades gubernamentales y organizaciones de seguridad vial para promover la educación vial y obtener las certificaciones necesarias que respalden sus programas de formación, generando mayor confianza entre los estudiantes y autoridades.</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="img_container img-4">
-                    <img src="images/Matriz DOFA.png" alt="Matriz DOFA">
-                </div>
-                <div class="img_container img-3">
-                    <div class="diagrama-container">
-                        <img src="images/Gráfico Diagrama de Espina de Pescado Sencillo Negro .png" alt="Diagrama de Espina de Pescado" class="pescado">
-                    </div>
-                </div>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Inicio - AutoBello</title>
+  </head>
+  <body>
+    <!-- Include navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">AutoBello</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="marco-estrategico.html"
+                >Marco Estratégico</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="objetivos.html">Objetivos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="procesos.html">Procesos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
+    <!-- Main content -->
+    <main class="container my-5">
+      <!-- Título principal -->
+      <section class="text-center">
+        <h1 class="display-4">Proyecto Final - AutoBello</h1>
+        <p class="lead">
+          Bienvenido a nuestro blog, donde mostramos todo el proceso llevado a
+          lo largo de este semestre.
+        </p>
+      </section>
 
-
-                <! Segunda entrega> 
-                <div>
-                <h4>Reglas de negocios</h4>
-                <div class="diagrama-container">
-                    <img src="images/reglasnegocio.jpeg" alt="Business Rules">
-                    </div>
-                </div>
-
-
-                <div>
-                    <h4>Diccionario de datos</h4>
-                    <div class="diagrama-container">
-                        <img src="images/diccionariodatos.jpeg" alt="Business Rules">
-
-
-                        <div class="objetivos__container">
-                            <h4>Proceso optimizado</h4>
-                            <ul class="objetivos__list">
-                                <li class="objetivo__item p">
-                                    <p class="p">En el nuevo proceso de reserva de clases de conducción para Autobello, los clientes podrán gestionar sus reservas a través de un sitio web, sin necesidad de acudir presencialmente a la escuela. Este sistema permite que los clientes inicien el proceso accediendo a la plataforma, donde el sistema verifica automáticamente si han completado las clases teóricas necesarias. Si cumplen con este requisito, pueden consultar la disponibilidad en tiempo real y reservar su clase práctica en el horario que mejor les convenga. La confirmación se registra en el sistema de manera inmediata, manteniendo el calendario actualizado para evitar sobre-reservas.</br> <br>
-
-                                        Este nuevo modelo aporta flexibilidad y conveniencia al permitir que los clientes reserven desde cualquier lugar y en cualquier momento, lo que mejora su experiencia y reduce la carga administrativa del personal. Las funcionalidades clave incluyen la verificación automática de requisitos previos, la consulta de horarios en tiempo real, la reserva y actualización automática de disponibilidad, y el envío de confirmaciones automáticas.</br> <br>
-                                        
-                                        Con esta implementación, Autobello resuelve problemas de ineficiencia, limitaciones de horario y errores manuales en el proceso de reservas, logrando un sistema ágil, confiable y alineado con las necesidades de los clientes y el personal de la escuela.</p>
-                                </li>
-                        </div>
-                    </div>
-
-                
-                    <div>
-                        <h4>Diagrama procesos registro</h4>
-                        <div class="diagrama-container">
-                            <img src="images/registro.jpeg" alt="Business Rules">
-                            </div>
-                        </div>
-
-
-                        <div>
-                            <h4>Diagrama procesos reserva actual</h4>
-                            <div class="diagrama-container">
-                                <img src="images/reservaactual.jpeg" alt="Business Rules">
-                                </div>
-                            </div>
-
-                            <div>
-                                <h4>Diagrama procesos reeserva optimizada</h4>
-                                <div class="diagrama-container">
-                                    <img src="images/reservaoptimizado.jpeg" alt="Business Rules">
-                                    </div>
-                                </div>
-            
-        
-            </article>
-        </section>
+      <!-- Descripción de AutoBello -->
+      <section>
+        <p>
+          Autobello es una escuela de conducción que permite a los estudiantes
+          tramitar todas las categorías de permisos de conducir desde A2 hasta
+          C3. Destaca por su apuesta por una formación integral que combina la
+          teoría con la práctica para convertir a los alumnos en conductores
+          seguros y responsables. Con un equipo de instructores apasionados por
+          la educación y la seguridad vial, Autobello se compromete a brindar
+          una experiencia de aprendizaje práctica y efectiva para todos.
+        </p>
+        <div class="text-center mt-4">
+          <img
+            src="images/Logo Autobello.jpg"
+            alt="Logo Autobello"
+            class="img-fluid"
+          />
+        </div>
+      </section>
     </main>
-</body>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-4">
+      <p>&copy; 2024 AutoBello. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>

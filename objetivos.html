@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <title>Objetivos Estratégicos - AutoBello</title>
+    <style>
+      p {
+        text-align: justify;
+      }
+
+      .text-bold {
+        font-weight: bold;
+      }
+
+      .objective-title {
+        font-size: 1.3rem;
+        font-weight: bold;
+      }
+
+      .card-img-container {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+      }
+
+      .card-img-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain; /* Ajustar las imágenes para que se mantengan dentro del contenedor */
+        object-position: center;
+      }
+
+      .section-title {
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 3rem;
+        color: #003366; /* Color personalizado */
+      }
+
+      /* Igualar altura de las tarjetas */
+      .card {
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        transition: transform 0.3s ease, opacity 0.3s ease; /* Transición suave para el hover */
+      }
+
+      .card:hover {
+        transform: scale(1.05); /* Aumenta el tamaño de la tarjeta */
+        opacity: 0.9; /* Cambia la opacidad de la tarjeta cuando se pasa el cursor */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Include navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">AutoBello</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="marco-estrategico.html"
+                >Marco Estratégico</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="objetivos.html">Objetivos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="procesos.html">Procesos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main content -->
+    <main class="container my-5">
+      <section>
+        <h2 class="text-center mb-4">Objetivos Estratégicos</h2>
+
+        <!-- Objetivo General -->
+        <div>
+          <h3>Objetivo General</h3>
+          <p>
+            Consolidar la posición de la organización como líder en el sector
+            del transporte a través de la actualización continua de su personal,
+            el fortalecimiento de su imagen de marca en seguridad vial y la
+            creación de alianzas estratégicas que respalden su compromiso con la
+            formación y responsabilidad social.
+          </p>
+        </div>
+
+        <!-- Objetivos Específicos -->
+        <div>
+          <h3>Objetivos Específicos</h3>
+          <ul>
+            <li>
+              <span class="text-bold"
+                >Asegurar una actualización constante del personal:</span
+              >
+              Mediante capacitaciones periódicas que garanticen su competencia
+              en las últimas normativas y tecnologías del sector de transporte,
+              asegurando que el personal esté siempre actualizado y preparado
+              para los desafíos del mercado.
+            </li>
+            <li>
+              <span class="text-bold"
+                >Mejorar el posicionamiento de la marca:</span
+              >
+              A través de campañas de marketing enfocadas en la ética, la
+              seguridad vial y el respeto al entorno, posicionándose como la
+              opción más responsable y profesional en el mercado de la formación
+              vial, destacando por su compromiso con la seguridad.
+            </li>
+            <li>
+              <span class="text-bold">Fortalecer alianzas estratégicas:</span>
+              Con entidades gubernamentales y organizaciones de seguridad vial
+              para promover la educación vial y obtener las certificaciones
+              necesarias que respalden los programas de formación, generando
+              mayor confianza entre los estudiantes y las autoridades.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Image grid -->
+        <div class="row mt-4">
+          <div class="col-md-6 mb-4">
+            <div class="card">
+              <div
+                class="card-img-container"
+                data-bs-toggle="modal"
+                data-bs-target="#modalDOFA"
+              >
+                <img src="images/Matriz DOFA.png" alt="Matriz DOFA" />
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  Matriz DOFA - Análisis de Fortalezas, Oportunidades,
+                  Debilidades y Amenazas
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="card">
+              <div
+                class="card-img-container"
+                data-bs-toggle="modal"
+                data-bs-target="#modalEspina"
+              >
+                <img
+                  src="images/Gráfico Diagrama de Espina de Pescado Sencillo Negro .png"
+                  alt="Diagrama Espina de Pescado"
+                />
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  Diagrama de Espina de Pescado - Herramienta para identificar
+                  causas principales de problemas dentro del proceso.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Modal DOFA -->
+    <div
+      class="modal fade"
+      id="modalDOFA"
+      tabindex="-1"
+      aria-labelledby="modalLabelDOFA"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalLabelDOFA">Matriz DOFA</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Cerrar"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="images/Matriz DOFA.png"
+              alt="Matriz DOFA"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Espina de Pescado -->
+    <div
+      class="modal fade"
+      id="modalEspina"
+      tabindex="-1"
+      aria-labelledby="modalLabelEspina"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalLabelEspina">
+              Diagrama Espina de Pescado
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Cerrar"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="images/Gráfico Diagrama de Espina de Pescado Sencillo Negro .png"
+              alt="Diagrama Espina de Pescado"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-4">
+      <p class="text-center">
+        &copy; 2024 Autobello. Todos los derechos reservados.
+      </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
