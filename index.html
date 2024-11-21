@@ -12,29 +12,35 @@
       rel="stylesheet"
     />
     <title>Inicio - AutoBello</title>
+    <style>
+      body {
+        font-family: "Montserrat", sans-serif;
+      }
+    </style>
   </head>
   <body>
-    <!-- Include navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html">AutoBello</a>
+        <a class="navbar-brand fw-bold" href="index.html">AutoBello</a>
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Inicio</a>
+              <a class="nav-link active" href="index.html">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="marco-estrategico.html"
-                >Marco Estratégico</a
-              >
+              <a class="nav-link" href="marco-estrategico.html">Marco Estratégico</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="objetivos.html">Objetivos</a>
@@ -42,13 +48,19 @@
             <li class="nav-item">
               <a class="nav-link" href="procesos.html">Procesos</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="comparacion.html">Comparación</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="recomendacion.html">Recomendación</a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
 
     <!-- Main content -->
-    <main class="container my-5">
+    <main class="container my-5 pt-5">
       <!-- Título principal -->
       <section class="text-center">
         <h1 class="display-4">Proyecto Final - AutoBello</h1>
@@ -61,18 +73,18 @@
       <!-- Descripción de AutoBello -->
       <section>
         <p>
-          Autobello es una escuela de conducción que permite a los estudiantes
+          AutoBello es una escuela de conducción que permite a los estudiantes
           tramitar todas las categorías de permisos de conducir desde A2 hasta
           C3. Destaca por su apuesta por una formación integral que combina la
           teoría con la práctica para convertir a los alumnos en conductores
           seguros y responsables. Con un equipo de instructores apasionados por
-          la educación y la seguridad vial, Autobello se compromete a brindar
+          la educación y la seguridad vial, AutoBello se compromete a brindar
           una experiencia de aprendizaje práctica y efectiva para todos.
         </p>
         <div class="text-center mt-4">
           <img
             src="images/Logo Autobello.jpg"
-            alt="Logo Autobello"
+            alt="Logo AutoBello"
             class="img-fluid"
           />
         </div>
